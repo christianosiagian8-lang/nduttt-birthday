@@ -1,37 +1,30 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>For My nduttt — From pittt</title>
-  <link rel="stylesheet" href="pipiw.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For My Nduttt</title>
+  <link rel="stylesheet" href="pipipwww.css">
 </head>
 <body>
-  <main class="page" role="main" aria-live="polite">
-    <section class="card">
-      <h1 class="title">For My nduttt</h1>
-      <p class="subtitle">Selamat ulang tahun — dari aku, buat nduttt  ❤️</p>
+  <div class="container">
+    <h1 class="title">For My Nduttt</h1>
+    <p class="subtitle">Selamat ulang tahun, cintaku. Dari aku, semoga harimu penuh tawa, hangat, dan semua hal yang kamu cintai 💖</p>
+    
+    <div class="buttons">
+      <button class="btn main" onclick="bukaHati()">🎁 Buka Hatiku</button>
+      <button class="btn music" onclick="toggleMusic()">🎵 Putar Musik</button>
+    </div>
 
-      <!-- tempat teks typing (surat) -->
-      <div id="loveLetter" class="love-letter" aria-label="Surat ulang tahun dari pittt untuk nduttt"></div>
+    <audio id="bgMusic" loop>
+      <source src="lagu.mp3" type="audio/mpeg">
+    </audio>
 
-      <div class="controls">
-        <button class="btn" id="openBtn" aria-label="Buka Hatiku">🎁 Buka Hatiku</button>
-        <button class="btn secondary" id="playBtn" aria-label="Putar Musik">▶️ Putar Musik</button>
-      </div>
+    <footer>
+      <p>Made with 🤍 by Christiano</p>
+    </footer>
+  </div>
 
-      <p class="hint"> <code></code>)</p>
-    </section>
-
-    <div class="credits">Made with ❤ by Christiano</div>
-  </main>
-
-  <!-- decorative/animation container -->
-  <div class="decor" id="decor"></div>
-
-  <!-- optional audio: ganti src jika pakai file lain -->
-  <audio id="bgMusic" src="soft-melody.mp3" preload="auto"></audio>
-
-  <script src="spipiw.js"></script>
+  <script src="pipipwww.js"></script>
 </body>
 </html>
